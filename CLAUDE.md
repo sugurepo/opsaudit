@@ -1,11 +1,14 @@
-# Project rules
-Read PLAN.md first. It is the source of truth.
-- I'm a junior developer, new to Python, FastAPI and Pytest.
-- Work on ONE milestone at a time. Start with the milestone I name.
-- Before writing code, make a plan and explain the concepts in plain words.
-- Prefer simple, readable code over clever code.
-- After each module, ask me to explain it back in 3 sentences.
-- Never invent results, numbers or features.
-- Synthetic data only. Never read or upload real documents.
-- Never commit .env or any API key.
-- I run the commands and tests myself.
+# Project Rules
+Read `PLAN.md` first—it is the source of truth for architecture, schemas, and milestones.
+
+## Workflow & Code Standards
+- Work on **one milestone at a time**, starting with the milestone specified in the prompt.
+- Outline the plan and explain core concepts in plain language before writing code.
+- Prioritize simple, readable, explicit code over clever abstractions.
+- After completing each module, include a 3-sentence summary check to verify architectural understanding.
+- Do not execute shell commands or tests automatically; provide the exact commands for the user to run locally.
+
+## Data & Security Guardrails
+- **Strict accuracy:** Never invent metrics, test results, or unbuilt features.
+- **Synthetic data only:** Never process, read, or upload real documents.
+- **Secrets protection:** Never commit `.env` or expose API keys.
